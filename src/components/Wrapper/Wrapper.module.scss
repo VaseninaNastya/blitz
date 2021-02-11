@@ -4,7 +4,7 @@ $grayTheme-color: #f1f1f1;
 
   .wrapper {
     height: 1080px;
-    width: 1920px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -22,7 +22,7 @@ $grayTheme-color: #f1f1f1;
     background-color: $whiteTheme-color;
   }
 
-  @media (max-width: 1919px) and (min-width: 767px){
+  @media (max-width: 1200px) and (min-width: 767px){
     .wrapper {
       width: 768px;
     }

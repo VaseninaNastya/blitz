@@ -35,9 +35,10 @@ $grayTheme-color: #bebebe;
   .mobileMenu,
   .mobileMenu_hidden {
     display: none;
+    width: 0px;
   }
 
-  @media   (max-width: 1919px) and (min-width: 767px) {
+  @media (max-width: 1200px) and (min-width: 767px){
     .header_menu {
       width: 590px;
     }
