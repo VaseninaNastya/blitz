@@ -1,0 +1,35 @@
+.header {
+  width: 100%;
+}
+
+.underline {
+  width: 1785px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.underline__white {
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.underline_gray {
+  border-bottom: 1px solid #bebebe;
+}
+
+@media (max-width: 1919px) and (min-width: 767px) {
+  .underline {
+    width: 634px;
+  }
+
+  .underline_gray {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .underline {
+    border-bottom: none;
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=Header.module.css.map */

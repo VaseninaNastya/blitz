@@ -1,0 +1,64 @@
+$whiteTheme-color: white;
+$grayTheme-color: #bebebe;
+@font-face{
+
+  font-family: 'NexaLight', sans-serif;
+  
+  src: url('./font/NexaLight.otf');
+
+  font-weight: normal;
+  
+  font-style: normal;
+  
+}
+
+
+  .item {
+    text-transform: uppercase;
+  }
+  .item_font__typical {
+    color: $whiteTheme-color;
+  }
+  .item_font__special {
+    font-family: 'NexaLight', sans-serif;
+    letter-spacing: 0.1em;
+    color: $grayTheme-color;
+  }
+  .header_menu {
+    width: 610px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .mobileMenu,
+  .mobileMenu_hidden {
+    display: none;
+  }
+
+  @media   (max-width: 1919px) and (min-width: 767px) {
+    .header_menu {
+      width: 590px;
+    }
+    .mobileMenu {
+      display: none;
+    }
+  }
+  @media (max-width: 767px) {
+    .item {
+      display: none;
+    }
+    .mobileMenu {
+      display: inherit;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+      margin-left: 44px;
+    }
+    .header_menu {
+      height: 0px;
+    }
+  }
+

@@ -1,0 +1,63 @@
+@mixin titleStyle {
+  font-family: "Open Sans";
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+$whiteTheme-color: white;
+$grayTheme-color: #bebebe;
+
+  .scrollDown {
+    font-size: 18px;
+    @include titleStyle;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 205px;
+    width: 100%;
+    span {
+      margin-top: 10px;
+    }
+  }
+
+  .scrollDown__white {
+    color: $whiteTheme-color;
+    svg {
+      fill: $whiteTheme-color;
+    }
+  }
+
+  .scrollDown__gray {
+    color: $grayTheme-color;
+    span {
+      padding-right: 15px;
+      fill: $grayTheme-color;
+      margin-top: 10px;
+    }
+  }
+
+  @media (max-width: 1919px) and (min-width: 767px) {
+    .scrollDown__white {
+      display: none;
+    }
+    .scrollDown__gray {
+      span {
+        padding-right: 0px;
+      }
+    }
+    .scrollDown {
+      span {
+        margin-top: 0px;
+      }
+      svg {
+        margin-bottom: 50px;
+      }
+    }
+  }
+  @media (max-width: 767px) {
+    .scrollDown {
+      display: none;
+    }
+  }
+

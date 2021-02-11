@@ -1,0 +1,52 @@
+.wrapper {
+  height: 1080px;
+  width: 1920px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.wrapper__white {
+  background: url("./img/Background.png"), center no-repeat;
+  background-size: cover;
+  color: #f1f1f1;
+}
+
+.wrapper__gray {
+  background-color: white;
+}
+
+@media (max-width: 1919px) and (min-width: 767px) {
+  .wrapper {
+    width: 768px;
+  }
+
+  .wrapper__white {
+    background-position: 1330px bottom;
+    background-size: auto;
+    height: 911px;
+  }
+
+  .wrapper__gray {
+    height: 1587px;
+  }
+}
+@media (max-width: 767px) {
+  .wrapper {
+    width: 320px;
+  }
+
+  .wrapper__white {
+    height: 268px;
+    background-position: center top;
+    background-size: 1201px;
+  }
+
+  .wrapper__gray {
+    height: 1340px;
+  }
+}
+
+/*# sourceMappingURL=Wrapper.module.css.map */
