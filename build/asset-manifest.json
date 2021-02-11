@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.cfe6d260.chunk.css",
+    "main.css": "./static/css/main.e2d29112.chunk.css",
     "main.js": "./static/js/main.8b1345b0.chunk.js",
     "main.js.map": "./static/js/main.8b1345b0.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.67a695e9.js",
@@ -8,7 +8,7 @@
     "static/js/2.a31ec935.chunk.js": "./static/js/2.a31ec935.chunk.js",
     "static/js/2.a31ec935.chunk.js.map": "./static/js/2.a31ec935.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.cfe6d260.chunk.css.map": "./static/css/main.cfe6d260.chunk.css.map",
+    "static/css/main.e2d29112.chunk.css.map": "./static/css/main.e2d29112.chunk.css.map",
     "static/js/2.a31ec935.chunk.js.LICENSE.txt": "./static/js/2.a31ec935.chunk.js.LICENSE.txt",
     "static/media/Wrapper.module.css": "./static/media/Background.b9597ba9.png",
     "static/media/MainContent.module.css": "./static/media/Jason Wood.4d00d57e.png",
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.67a695e9.js",
     "static/js/2.a31ec935.chunk.js",
-    "static/css/main.cfe6d260.chunk.css",
+    "static/css/main.e2d29112.chunk.css",
     "static/js/main.8b1345b0.chunk.js"
   ]
 }
